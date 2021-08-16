@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wireframe System</title>
+  <meta name="description" content="Recent graphic design work by Madeleine Gale Design">
+  <meta name="keywords" content="Textiles,Madeleine Gale,MadeleineGaleDesign,Textile Designer, UK textiles, UK digital designer, ui design, ux designer, brighton ux designer, web designer, madeleine gale design, maddy gale">
+  <meta name="author" content="Madeleine Gale">
+  <link rel="stylesheet" href="../../styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+  </head>
+  <body>
+<div class="container">
+
+    <!-- Nav -->
+  <div class="topnav" id="myTopnav">
+  <a href="../../index.html"><img src="images/nav-logo.svg" alt="mgd logo"></a>
+  <a href="../index.html" target="_self">UX/UI</a>
+  <a href="../../rakugaki/index.html" target="_self">Textiles</a>
+  <a href="../../about/index.html" target="_self">About</a>
+  <a href="#contact" target="_self">Contact</a>
+<!--   <a href="https://www.etsy.com/uk/shop/MadeleineGaleDesign" target="_blank">Shop</a> -->
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="images/menu-icon.svg" alt="menu-icon"></a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+    <!-- Hero -->
+    <div class="hero-about">
+      <h1 class="graphic-title">Wireframe System</h1>
+    </div>
+
+    <!-- Intro Text -->
+  <div class="content-container">
+    <h2 class="intro-title">Concept</h2>
+    <div class="project-intro-text"> A wireframedesign system creating using Figma components, variants and auto-layout to optimise the wireframing process.
+    <br><br>
+    I paid close attention to the naming conventions in order to set up my component related Figma UI in the correct way. I published this to the company team, then the design team were able to use this as a library and access assets and variants to build out wireframes.
+  </div>
+
+    <!-- Final Designs -->
+  <div class="twelve-col">
+    <p class="job-year">Setup</p>
+  </div>
+    <div class="twelve-col">
+        <img class="whitepaper-image" src="images/design-one.png" alt="example design">
+        <img class="whitepaper-image-mobile" src="images/design-one.png" alt="example design">
+    </div>
+ 
+
+  <div class="content-container">
+    <h2 class="intro-title">Preview</h2>
+    <div class="project-intro-text"> You can view the wireframe system here - <a target="_blank" href="https://www.figma.com/file/nip9vURAg8uQqshBAdCD8A/Wireframe-System?node-id=0%3A1">Wireframe System</a></div>
+
+  <div class="twelve-col">
+    <a href="../bacardi/index.html" target="_self" class="next-project-link"><div class="next-project-container">
+      <p class="next-project">Next project: Bacardi</p>
+      <img src="images/icon-arrow.svg" class="next-project-arrow" alt="arrow icon">
+    </div>
+  </a>
+
+</div>
+
+</div>
+
+</div>
+
+  <!-- Contact CTA -->
+  <div class="twelve-col">
+    <div class="contact-cta-background" id="contact">
+      <div class="contact-cta-content">
+        <h2 class="contact-cta-title">Get In Touch</h2>
+        <p class="cta-subline">Don’t hesitate to contact me via the email below if you would like to find out more.</p>
+        <div class="cta-icon-container">
+          <img class="contact-cta-icon" src="images/email-icon.svg" alt="email icon">
+        </div>
+        <p class="cta-email">madeleinegaledesign@gmail.com</p>
+      </div>
+<!--       <div class="contact-cta-illustration">
+        <img src="images/cta-cubes.svg" alt="cube illustration">
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="pre-footer">
+    <div class="content-container">
+      <div class="six-col">
+        <p>© 2020 Madeleine Gale Design</p>
+      </div>
+
+      <div class="six-col social-icon-container">
+        <a href="https://dribbble.com/madeleine-gale-design" target="_blank"><div class="social-icons">
+          <img src="images/icon-dribbble.svg" alt="dribbble social icon">
+        </div></a>
+<!--         <a href="https://www.etsy.com/uk/shop/MadeleineGaleDesign" target="_blank"><div class="social-icons">
+          <img src="images/icon-etsy.svg" alt="etsy social icon">
+        </div></a> -->
+        <a href="https://www.instagram.com/madeleinegaletextiles" target="_blank"><div class="social-icons">
+          <img src="images/icon-instagram.svg" alt="instagram social icon">
+        </div></a>
+        <a href="https://uk.linkedin.com/in/madeleinegaledesign" target="_blank"><div class="social-icons">
+          <img src="images/icon-linkedin.svg" alt="linkedin social icon">
+        </div></a>
+        <a href="https://www.behance.net/madeleinegale" target="_blank"><div class="social-icons">
+          <img src="images/icon-behance.svg" alt="behance social icon">
+        </div></a>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+</body>
+</html>
