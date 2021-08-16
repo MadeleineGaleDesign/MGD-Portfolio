@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Madeleine Gale Design</title>
+	<meta name="description" content="Brighton based Senior UX / UI designer">
+  	<meta name="keywords" content="Textiles,Madeleine Gale,MadeleineGaleDesign,Textile Designer, UK textiles, UK digital designer, ui design, ux designer, brighton ux designer, web designer, madeleine gale design, maddy gale">
+	<meta name="author" content="Madeleine Gale">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+  </head>
+  <body>
+<div class="container">
+
+    <!-- Nav -->
+  <div class="topnav" id="myTopnav">
+  <a href="index.html"><img src="images/nav-logo.svg" alt="mgd logo"></a>
+  <a href="ux/index.html" target="_self">UX/UI</a>
+  <a href="#contact" target="_self">Textiles</a>
+  <a href="about/index.html" target="_self">About</a>
+  <a href="#contact" target="_self">Contact</a>
+<!--   <a href="https://www.etsy.com/uk/shop/MadeleineGaleDesign" target="_blank">Shop</a> -->
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="images/menu-icon.svg" alt="menu-icon"></a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+	<!-- Hero -->
+	<div class="twelve-col hero-main">
+		<div class="hero-text">
+			<div class="hero-text-detail"></div>
+			<h1 class="home-h1">Madeleine Gale</h1>
+			<div class="home-line"></div>
+			<p class="home-specialism">Senior ux / ui Designer</p>
+			<div>
+				<img src="images/crane.svg" class="home-crane-icon" alt="crane logo">
+			</div>
+		</div>
+	<!-- 	<img src="images/cube-illustration.svg" alt="geometric cube illustration"> -->
+	</div>
+
+	<div class="scroll-icon-container">
+		<img src="images/icon-scroll.svg" class="scroll-icon" alt="scroll icon">
+	</div>
+
+	<div class="content-container">
+		
+		<!-- Intro -->
+		<div class="twelve-col">
+			<h2 class="intro-title">Who Am I?</h2>
+		</div>
+
+		<div class="twelve-col portrait">
+			<img src="images/portrait.jpg" alt="self portrait">
+		</div>
+
+		<div class="twelve-col">
+			<p class="intro-text">I  am a Brighton-based Senior UX / UI Designer, specialising in e-commerce and Shopify. With a background in Textile Design (BA Hons) and MA Digital Media Arts, and a certified Adobe Visual Design Specialist, I am highly skilled in Photoshop, Illustrator and InDesign. Strong knowledge of design principles and a love of design enable me to successfully work with a variety of clients and styles, bringing their vision to life in clear, impactful, beautiful web designs. </p>
+		</div>
+
+    <div class="twelve-col skill-card-container">
+      <div class="three-col skill-card">
+        <img src="images/ux-icon.svg" alt="ui / ux skill icon">
+        <h3 class="skill-name">UX / UI Design</h3>
+      </div>
+      <div class="three-col skill-card">
+        <img src="images/ecom-icon.svg" alt="ecommerce skill icon">
+        <h3 class="skill-name">E-Commerce + Shopify</h3>
+      </div>
+      <div class="three-col skill-card">
+        <img src="images/icon-figma.svg" alt="figma design skill icon">
+        <h3 class="skill-name">Figma Design + Prototyping</h3>
+      </div>
+      <div class="three-col skill-card">
+        <img src="images/icon-doodle.svg" alt="illustration skill icon">
+        <h3 class="skill-name">Illustration</h3>
+      </div>
+    </div>
+
+<!-- 	<a href="about/index.html" target="_self"><button class="main-button">More About Me</button></a> -->
+	
+	</div>
+
+	<!-- Promo Panels -->
+	<div class="twelve-col ux-promo">
+		<div class="ux-promo-detail"></div>
+			<div class="content-container">
+				<div class="depth">
+				<img src="images/ux-promo.png" alt="ui design project example" class="ux-promo-detail-image"> 
+				</div>
+			<div class="promo-text-container">
+				<p class="category-tag">UX / UI DESIGN</p>
+				<h2 class="promo-title">Bacardi</h2>
+				<p class="promo-text">I led the design for the new Bacardi brand "Plume and Petal", a premium, low alcohol percentage vodka for sophisticated working women.</p>
+				<button class="ux-button"><a href="ux/bacardi/index.html" target="_self">See Project</a></button>
+			</div>
+		</div>
+	</div>
+
+
+  <div class="twelve-col ux-promo">
+    <div class="ux-promo-detail"></div>
+      <div class="content-container">
+        <div class="depth">
+        <img src="images/ux-promo-2.png" alt="ui design project example" class="ux-promo-detail-image"> 
+        </div>
+      <div class="promo-text-container">
+        <p class="category-tag">UX / UI DESIGN</p>
+        <h2 class="promo-title">Bol Foods</h2>
+        <p class="promo-text">A custom Shopify build project for a large UK plant-based foods brand. Making the site feel more modern and solving complex UX problems.</p>
+        <button class="ux-button"><a href="ux/bol-foods/index.html" target="_self">See Project</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="twelve-col ux-promo">
+    <div class="ux-promo-detail"></div>
+      <div class="content-container">
+        <div class="depth">
+        <img src="images/ux-promo-3.png" alt="ui design project example" class="ux-promo-detail-image"> 
+        </div>
+      <div class="promo-text-container">
+        <p class="category-tag">UX / UI DESIGN</p>
+        <h2 class="promo-title">Edge of Ember</h2>
+        <p class="promo-text">A fully bespoke Shopify build for a luxury jewellery brand, bringing their site inline with their new branding.</p>
+        <button class="ux-button"><a href="ux/edge-of-ember/index.html" target="_self">See Project</a></button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Contact CTA -->
+  <div class="twelve-col">
+    <div class="contact-cta-background" id="contact">
+      <div class="contact-cta-content">
+        <h2 class="contact-cta-title">Get In Touch</h2>
+        <p class="cta-subline">Don’t hesitate to contact me via the email below if you would like to find out more.</p>
+        <div class="cta-icon-container">
+          <img class="contact-cta-icon" src="images/email-icon.svg" alt="email icon">
+        </div>
+        <p class="cta-email">madeleinegaledesign@gmail.com</p>
+      </div>
+<!--       <div class="contact-cta-illustration">
+        <img src="images/cta-cubes.svg" alt="cube illustration">
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="pre-footer">
+    <div class="content-container">
+      <div class="six-col">
+        <p>© 2021 Madeleine Gale Design</p>
+      </div>
+
+      <div class="six-col social-icon-container">
+        <a href="https://dribbble.com/madeleine-gale-design" target="_blank"><div class="social-icons">
+          <img src="images/icon-dribbble.svg" alt="dribbble social icon">
+        </div></a>
+<!--         <a href="https://www.etsy.com/uk/shop/MadeleineGaleDesign" target="_blank"><div class="social-icons">
+          <img src="images/icon-etsy.svg" alt="etsy social icon">
+        </div></a> -->
+        <a href="https://www.instagram.com/madeleinegaletextiles" target="_blank"><div class="social-icons">
+          <img src="images/icon-instagram.svg" alt="instagram social icon">
+        </div></a>
+        <a href="https://uk.linkedin.com/in/madeleinegaledesign" target="_blank"><div class="social-icons">
+          <img src="images/icon-linkedin.svg" alt="linkedin social icon">
+        </div></a>
+        <a href="https://www.behance.net/madeleinegale" target="_blank"><div class="social-icons">
+          <img src="images/icon-behance.svg" alt="behance social icon">
+        </div></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+  </body>
+</html>

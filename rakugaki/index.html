@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MGD Rakugaki</title>
+  <meta name="description" content="Rakugaki - A textile design project by Madeleine Gale Design">
+  <meta name="keywords" content="Textiles,Madeleine Gale,MadeleineGaleDesign,Textile Designer, UK textiles, UK digital designer, ui design, ux designer, brighton ux designer, web designer, madeleine gale design, maddy gale">
+  <meta name="author" content="Madeleine Gale">
+  <link rel="stylesheet" href="../styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+  </head>
+  <body>
+<div class="container">
+
+    <!-- Nav -->
+  <div class="topnav" id="myTopnav">
+  <a href="../index.html"><img src="images/nav-logo.svg" alt="mgd logo"></a>
+  <a href="../ux/index.html" target="_self">UX/UI</a>
+  <a href="index.html" target="_self">Textiles</a>
+  <a href="../about/index.html" target="_self">About</a>
+  <a href="#contact" target="_self">Contact</a>
+<!--   <a href="https://www.etsy.com/uk/shop/MadeleineGaleDesign" target="_blank">Shop</a> -->
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="images/menu-icon.svg" alt="menu-icon"></a>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+    <!-- Hero -->
+    <div class="rakugaki-hero">
+      <h1 class="about-title">Rakugaki</h1>
+    </div>
+
+    <!-- Intro Text -->
+  <div class="content-container">
+    <h2 class="intro-title">Concept</h2>
+    <div class="project-intro-text">My main inspiration for this project was combining traditional Japanese textiles and motifs with graffiti and street art - specifically Japanese inspired or motifs. I wanted to create a juxtaposition between the two and modernise traditional techniques that are becoming less and less engaged with. I also wanted to focus on the amelioration of street art, as it's seen as vandalism but when done well it has artistic value. Comparing and combining with beautiful traditional pieces hopefully shows the beauty of well crafted street art.</div>
+    <h2 class="intro-title">Brief</h2>
+    <p class="project-intro-text">The project aim was a fabric collection of 20 fabrics for interior end use (upholstery, furnishings etc). Most designs had alternate colour ways and I stuck to a certain colour palette that I extracted from my initial research that I thought summed up my theme the most and wanted to work with. The collection was a mixture of digitally printed designs onto fabric and hand-stitched sashiko and boro samples. My motifs were created though hand-drawing, painting, stitch, collage and creating my own graffiti stencils using card and a craft knife. I have always loved the look of graffiti and street art so it was enjoyable to engage with graffiti techniques myself.</p>
+
+    <!-- Skill Cards -->
+    <div class="twelve-col skill-card-container">
+      <div class="three-col skill-card">
+        <img src="images/cad-icon.svg" alt="computer aided design skill icon">
+        <h3 class="skill-name">Computer Aided Design</h3>
+      </div>
+      <div class="three-col skill-card">
+        <img src="images/digital-print-icon.svg" alt="digital print skill icon">
+        <h3 class="skill-name">Digital Print</h3>
+      </div>
+      <div class="three-col skill-card">
+        <img src="images/pattern-icon.svg" alt="pattern design skill icon">
+        <h3 class="skill-name">Pattern Design</h3>
+      </div>
+      <div class="three-col skill-card">
+        <img src="images/icon-doodle.svg" alt="illustration skill icon">
+        <h3 class="skill-name">Illustration</h3>
+      </div>
+    </div>
+    
+    <!-- Colour Palette -->
+    <h2 class="intro-title">Colour Palette</h2>
+    <div class="colour-palette">
+      <img class="swatch" src="images/yellow-swatch.svg" alt="yellow swatch">
+      <img class="swatch" src="images/black-swatch.svg" alt="black swatch">
+      <img class="swatch" src="images/warm-yellow-swatch.svg" alt="warm yellow swatch">
+      <img class="swatch" src="images/orange-swatch.svg" alt="orange swatch">
+      <img class="swatch" src="images/red-swatch.svg" alt="red swatch">
+      <img class="swatch" src="images/light-pink-swatch.svg" alt="light pink swatch">
+      <img class="swatch" src="images/pink-swatch.svg" alt="pink swatch">
+      <img class="swatch" src="images/blue-swatch.svg" alt="blue swatch">
+    </div>
+
+    <!-- Development Progress -->
+    <h2 class="intro-title">Design Development</h2>
+    <div class="twelve-col progress-line">
+        <div class="arrow-line"></div>
+        <div class="triangle-right"></div>
+    </div>
+    <div class="twelve-col">
+      <h3 class="development-initial">Initial concept</h3>
+      <h3 class="development-final">Final</h3>
+    </div>
+
+    <div class="twelve-col development-container">
+        <div class="three-col">
+          <img class="development-image" src="images/fish-development-1.jpg" alt="koi initial graffiti">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/fish-development-2.jpg" alt="koi initial drawing">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/fish-development-3.jpg" alt="koi development drawing">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/fish-development-4.jpg" alt="final koi motif">
+        </div>
+    </div>
+    <div class="twelve-col development-container">
+        <div class="three-col">
+          <img class="development-image" src="images/crane-development-1.jpg" alt="crane initial graffiti">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/crane-development-2.jpg" alt="crane initial drawing">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/crane-development-3.jpg" alt="placeholder">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/crane-development-4.jpg" alt="placeholder">
+        </div>
+    </div>
+    <div class="twelve-col development-container">
+        <div class="three-col">
+          <img class="development-image" src="images/lotus-development-1.jpg" alt="lotus initial drawing">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/lotus-development-2.jpg" alt="lotus developed motif">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/lotus-development-3.jpg" alt="lotus developed drawing">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/lotus-development-4.jpg" alt="placeholder">
+        </div>
+    </div>
+    <div class="twelve-col development-container">
+        <div class="three-col">
+          <img class="development-image" src="images/sakura-development-1.jpg" alt="placeholder">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/sakura-development-2.jpg" alt="placeholder">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/sakura-development-3.jpg" alt="placeholder">
+        </div>
+        <div class="three-col">
+          <img class="development-image" src="images/sakura-development-4.jpg" alt="placeholder">
+        </div>
+    </div>
+
+    <!-- Final Designs -->
+    <h2 class="intro-title">Final Designs</h2>
+    <div class="twelve-col final-design-container">
+      <div class="six-col">
+        <img class="final-design-image" src="images/koi-final.jpg" alt="koi final pattern">
+      </div>
+      <div class="six-col">
+        <img class="final-design-image" src="images/koi-final-red.jpg" alt="koi final pattern alternate colour">
+      </div>
+    </div>
+    <div class="twelve-col final-design-container">
+      <div class="six-col">
+        <img class="final-design-image" src="images/crane-final.jpg" alt="crane final pattern">
+      </div>
+      <div class="six-col">
+        <img class="final-design-image" src="images/crane-final-orange.jpg" alt="crane final pattern alternative colour way">
+      </div>
+    </div>
+    <div class="twelve-col final-design-container">
+      <div class="six-col">
+        <img class="final-design-image" src="images/daruma-final.jpg" alt="daruma final pattern">
+      </div>
+      <div class="six-col">
+        <img class="final-design-image" src="images/daruma-final-black.jpg" alt="black daruma final pattern">
+      </div>
+    </div>
+    <div class="twelve-col final-design-container">
+      <div class="six-col">
+        <img class="final-design-image" src="images/cross.jpg" alt="cross stitch final pattern">
+      </div>
+      <div class="six-col">
+        <img class="final-design-image" src="images/cross-alternative-colour.jpg" alt="cross stitch final pattern">
+      </div>
+    </div>
+    <div class="twelve-col final-design-container">
+      <div class="six-col">
+        <img class="final-design-image" src="images/sashiko.jpg" alt="sashiko stitch final pattern">
+      </div>
+      <div class="six-col">
+        <img class="final-design-image" src="images/wave-pattern.jpg" alt="wave stitch final pattern">
+      </div>
+    </div>
+</div>
+  <!-- Contact CTA -->
+
+  <div class="twelve-col">
+    <div class="contact-cta-background" id="contact">
+      <div class="contact-cta-content">
+        <h2 class="contact-cta-title">Get In Touch</h2>
+        <p class="cta-subline">Don’t hesitate to contact me via the email below if you would like to find out more.</p>
+        <div class="cta-icon-container">
+          <img class="contact-cta-icon" src="images/email-icon.svg" alt="email icon">
+        </div>
+        <p class="cta-email">madeleinegaledesign@gmail.com</p>
+      </div>
+<!--       <div class="contact-cta-illustration">
+        <img src="images/cta-cubes.svg" alt="cube illustration">
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="pre-footer">
+    <div class="content-container">
+      <div class="six-col">
+        <p>© 2020 Madeleine Gale Design</p>
+      </div>
+
+      <div class="six-col social-icon-container">
+        <a href="https://dribbble.com/madeleine-gale-design" target="_blank"><div class="social-icons">
+          <img src="images/icon-dribbble.svg" alt="dribbble social icon">
+        </div></a>
+<!--         <a href="https://www.etsy.com/uk/shop/MadeleineGaleDesign" target="_blank"><div class="social-icons">
+          <img src="images/icon-etsy.svg" alt="etsy social icon">
+        </div></a> -->
+        <a href="https://www.instagram.com/madeleinegaletextiles" target="_blank"><div class="social-icons">
+          <img src="images/icon-instagram.svg" alt="instagram social icon">
+        </div></a>
+        <a href="https://uk.linkedin.com/in/madeleinegaledesign" target="_blank"><div class="social-icons">
+          <img src="images/icon-linkedin.svg" alt="linkedin social icon">
+        </div></a>
+        <a href="https://www.behance.net/madeleinegale" target="_blank"><div class="social-icons">
+          <img src="images/icon-behance.svg" alt="behance social icon">
+        </div></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
